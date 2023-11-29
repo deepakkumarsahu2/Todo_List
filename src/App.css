@@ -1,0 +1,136 @@
+:root{
+   --color: rgba(0,0,0,0.3)
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 820px;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+color: #ffff;
+font-weight: 700;
+    
+   
+}
+.child-container{
+  border-radius: 10px;
+    height: 620px;
+    width: 450px;
+    padding: 10px;
+    background-color: var(--color);
+}
+.image-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.image-section img{
+    height: 60px;
+    width: 60px;
+}
+.input-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    gap: 10px;
+}
+.input-section input{
+    width: 250px;
+    height: 30px;
+    border-radius: 7px;
+    outline: none;
+    border: transparent;
+    background-color:#eaeaea;
+    text-align: center;
+}
+.input-section icon-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.plus-icon{
+    font-size: 25px;
+    cursor: pointer;
+    color: #f0f0f0
+}
+.plus-icon:hover{
+    color: #000000;
+}
+.text-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    gap: 20px;
+    margin-top: 25px;
+    width: 327px;
+    margin-left: 52px;
+    background-color: #eaeaea;
+    border-radius: 6px;
+    padding-inline: 4px;
+    color: #000000;
+}
+.text-holder input{
+    margin-right: -17px;
+}
+.text{
+width: 280px;
+text-align: center;
+border-radius: 10px;
+padding: 2px;
+}
+.text.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+.text-icon1{
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.text-icon1{
+    color: #008000;
+}
+.text-icon1:hover{
+    color: #0000ff;
+}
+.text-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: red;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    width: 80px;
+    height: 25px;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    background-color: aquamarine;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: -25px;
+}
+button:hover{
+    background-color: aqua;
+    border-color: blue;
+}
